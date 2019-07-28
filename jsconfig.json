@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./src",
+        "paths": {
+            "Api/*": [
+                "api/*"
+            ],
+            "Components/*": [
+                "components/*"
+            ],
+            "Config": [
+                "config/index.js"
+            ],
+            "Core/*": [
+                "core/*"
+            ],
+            "Utils/*": [
+                "utils/*"
+            ],
+            "Routes/*": [
+                "routes/*"
+            ]
+        },
+        "outDir": "./dist",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "target": "es2017"
+    }
+}
